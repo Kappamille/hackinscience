@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python 				
 phantom_menace = """Turmoil has engulfed the Galactic Republic. The\
  taxation of trade routes to outlying star systems is in\
  dispute. Hoping to resolve the matter with a blockade of deadly\
@@ -8,3 +8,4 @@ phantom_menace = """Turmoil has engulfed the Galactic Republic. The\
  Chancellor has secretly dispatched two Jedi Knights, the guardians of\
  peace and justice in the galaxy, to settle the conflict"""
 print(len(phantom_menace.split()))
+		#exo10
