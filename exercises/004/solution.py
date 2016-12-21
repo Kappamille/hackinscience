@@ -1,5 +1,4 @@
 #!/usr/bin/python
-
-from string import ascii_lowercase   			#exo4
-word = ascii_lowercase[::-1]
-print(word[0:5] + 'U' + word[6:11] + 'O' + word[12:17] + 'I' + word[18:21] + 'E' + word[22:25] + 'A')
+from string import ascii_lowercase  
+w = ascii_lowercase[::-1]
+print(w[0:5] + 'U' + w[6:11] + 'O' + w[12:17] + 'I' + w[18:21] + 'E' + w[22:25] + 'A') 
