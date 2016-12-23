@@ -5,4 +5,7 @@ if len(sys.argv) == 1:
 elif len(sys.argv) == 2:
 	print("Bonjour, " + str(sys.argv[1]) + " !")
 else:
-	print("Bonjour ," + str(sys.argv[1:-1]) + " et " + str(sys.argv[-1]) + " !") 
+	s = sys.argv[1] + ", "
+	for i in sys.argv[1:-2]:
+		s += i +  ", "
+	print("Bonjour, " + str(s) + str(sys.argv[-2]) + " et " + str(sys.argv[-1]) + " !")
