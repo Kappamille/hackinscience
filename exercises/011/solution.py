@@ -1,3 +1,3 @@
 #!/usr/bin/python
 hellow = 'Hello World \n'
-print(hellow * 100)
+print(hellow * 99)
