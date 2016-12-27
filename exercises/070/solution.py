@@ -1,6 +1,6 @@
 #!/usr/bin/python
 from string import ascii_lowercase
 for i in ascii_lowercase:
-	for b in ascii_lowercase:
-		if i != b:
-			print(i+b)
+    for b in ascii_lowercase:
+        if i != b:
+            print(i + b)
