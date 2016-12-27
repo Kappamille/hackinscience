@@ -9,7 +9,7 @@ def sort_by_mark(my_class):
     return(sorted(my_class, key=bla, reverse=True))
 
 
-def sort_by_mark(my_class):
+def sort_by_name(my_class):
     from operator import itemgetter
     bla = itemgetter(1)
     return(sorted(my_class, key=bla))
