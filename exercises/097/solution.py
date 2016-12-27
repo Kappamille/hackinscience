@@ -1,4 +1,4 @@
-#!/usr/bin/python
+!/usr/bin/python
 def love_meet(bob, alice):
     return(set(alice) & set(bob))
 
